@@ -6,7 +6,7 @@ var num2 = 5;
 var numFat = 6;
 
 function verifyNumbers() {
-  if (!validate.isNumber(num1) || !validate.isNumber(num2)) {
+  if (!validate.isNumber(num1) || !validate.isNumber(num2) || !validate.isNumber(numFat)) {
     console.log("Valores não são do tipo Number");
     return false;
   }
